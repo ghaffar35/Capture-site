@@ -1,7 +1,60 @@
 body{
     margin:0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+
+li img{
+width: 70px;
+height: 20px;
+padding-right: 250px;
+display: block;
+color: #fff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background:#D42929;
+    transition: all .3s;
+    text-align:center;
+}
+nav ul{
+    float: right;
+    padding:0;
+    list-style-type: none;
+    display: inline-block;
+    margin:0;
+}
+nav ul li{
+    display:inline-block;
+    font-size:1.1em;
+    color: white;
+}
+nav ul li a{
+    display:block;
+    padding:10px;;
+    color: #fdfdfd;
+    text-transform: uppercase;
+    cursor:pointer;
+    border-bottom:3px solid transparent;
+    transition: all.3s;
+    text-decoration:none;
+}
+nav ul li a:hover,nav ul li a.active{
+text-decoration: underline;
+}
+nav ul li a:focus{
+    outline: 0!important;
+}
+
+.titre{
+    font-family: 'Indie Flower', cursive;
+    padding-top: 10px;
+}
+
 
 .partie1{
     width: 100%;
@@ -25,8 +78,23 @@ body{
 
 i{
 color: grey;
+padding-left: 10px;
 }
 
+.fa-google-plus:hover{
+color: red;
+cursor: pointer;
+}
+
+.fa-twitter:hover{
+color: dodgerblue;
+cursor: pointer;    
+}
+
+.fa-facebook:hover{
+color:blue;
+cursor: pointer;
+}
 
 .soustitre{
   text-align: center;  
@@ -41,6 +109,8 @@ color: grey;
 padding-top: 230px;
 text-align: center;   
 }
+
+
 
 .murphoto1 .tof{
     display: block;
